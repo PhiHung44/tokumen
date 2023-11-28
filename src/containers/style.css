@@ -1,0 +1,46 @@
+:root{
+    --primary: #1250dc;
+    --blue-200: #acc0f3;
+    --blue-300: #769dea;
+    --blue-400: #306de4;
+    --blue-500: #1250dc;
+    --blue-600: #0037c1;
+    --blue-700: #002c9a;
+    --blue-800: #002174;
+    --blue-900: #00164d;
+    --blue-1000: #000b27;
+}
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    
+}
+/* Mobile */
+@media (max-width: 740px) {
+    .Header-PC{
+        display: none;
+    }
+    .Navbar-PC{
+        display: none;
+    }
+    .Content-PC{
+        display: none;
+    }
+    .Footer-PC{
+        display: none;
+    }
+}
+/* PC */
+@media (min-width: 1024px){
+    .Header-Mobile{
+        display: none;
+    }
+    .Navbar-Mobile{
+        display: none;
+    }
+    .Content-Mobile{
+        display: none;
+    }
+    .Footer-Mobile{
+        display: none;
+    }
+}
